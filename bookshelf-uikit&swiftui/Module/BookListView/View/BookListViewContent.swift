@@ -53,7 +53,7 @@ struct BookListItem: View {
             action()
         } label: {
             HStack(alignment: .top, spacing: 13) {
-                Image(.cover) // URL(string: "https://covers.openlibrary.org/b/id/\(book.cover_i)-M.jpg")
+                Image(.cover)
                     .resizable()
                     .scaledToFit()
                     .frame(width: 75, height: 110)
